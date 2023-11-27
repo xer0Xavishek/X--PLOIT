@@ -1,14 +1,10 @@
-# def printmydetails(name,id):
-
-#   print("I am" ,name)
-#   print("my id is", id)# it is a void function .egula none return kore.
-# name=input()
-# id =int(input())
-# printmydetails(name,id) #argument in bracket
-
-# print(printmydetails(name,id))
-
-def is_even(i):
-    return (i % 2 == 0)
-print(is_even(int(input())))
-
+N=int(input())
+sum=0
+for i in range(1,N+1,1):
+  if i%7==0 or i%9==0:
+    sum=sum+i
+  elif i%7==0 and i%9==0:
+    sum=sum+0
+  elif i%7!=0 or i%9!=0:
+    continue
+print(sum)
