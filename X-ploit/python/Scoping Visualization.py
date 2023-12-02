@@ -9,6 +9,7 @@ def Bangladesh_f():
             nonlocal a # nonlocal means inside "KCC" everyhing
             a = "KCC Royal more"#Level 3 local area
             print(a)
+        KCC_f()
         print(a)
     Khulna_f()
     print("Inside Bangladesh", a)
