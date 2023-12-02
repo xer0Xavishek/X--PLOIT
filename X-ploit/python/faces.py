@@ -7,7 +7,7 @@ def Bangladesh_f():
         a = "Khulna"
         print(a)
     Khulna_f()
-    print("Inside Bangladesh: ", a)
+    print("Inside Bangladesh", a)
 
 Bangladesh_f()
 
