@@ -1,13 +1,17 @@
-a = "Global a"
+a = "Global Stuffs Earth"
 
-def outer_f():
-    a = "Outer a(local)"
-    def inner_f():
-        nonlocal a
-        a = "Inner a(nonlocal)"
-        print("Inside inner_f(): ", a)
-    inner_f()
-    print("Inside outer_f(): ", a)
+def Bangladesh_f():
+    a = "Bangladesh"
+    def Khulna_f():
+        nonlocal a # nonlocal means inside a = "Khulna"
+        a = "Khulna"
+        print(a)
+    Khulna_f()
+    print("Inside Bangladesh: ", a)
 
-outer_f()
-print("In the main: ", a)
+Bangladesh_f()
+
+
+
+
+print("In the main: ", a) # Global a
