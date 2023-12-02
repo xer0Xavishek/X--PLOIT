@@ -17,6 +17,4 @@ def Bangladesh_f():
 Bangladesh_f()#Local area
 
 
-
-
 print("In the main: ", a) # Global a
