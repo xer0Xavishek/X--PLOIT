@@ -1,4 +1,4 @@
-""" [expression for item in iterable] """#list comprehension structure
+""" [expression for item in iterable] """               #list comprehension structure
 
 """ item-->      is a variable that takes each value in the iterable one by one
 
