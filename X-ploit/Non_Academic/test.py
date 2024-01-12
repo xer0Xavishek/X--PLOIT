@@ -1,5 +1,5 @@
 class Human:
-    age=0
+    age=0#by default
     def print_age(self,additional_text):
         print(self.age,additional_text)
 
@@ -11,3 +11,4 @@ usr2.age=30     #method 2
 
 usr1.print_age("Jamal")
 usr2.print_age("Kamal")
+
